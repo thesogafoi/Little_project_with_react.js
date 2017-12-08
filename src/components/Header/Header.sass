@@ -1,0 +1,25 @@
+@import '../../mq.sass'
+.navbar
+  background: #383838
+  color: #fff
+  .navbar-brand a
+    font-weight: bold
+    color: #fff
+  a:hover
+    color: gray
+  .navbar-menu .navbar-end .navbar-item
+    background: #383838
+    color: #fff
+    padding: 0.5rem 1.75rem
+    &:hover
+      color: gray
+  .navbar-menu .navbar-end .navbar-item a.is-primary
+    &:hover
+      color: #fff
+
+    +mobile
+      .navbar
+        background: #383838
+      color: gray
+      &:hover
+        background-color: #f1f1f1

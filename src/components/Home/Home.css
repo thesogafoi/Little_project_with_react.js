@@ -1,0 +1,26 @@
+.hero {
+  background: url("../../assets/clouds.jpg");
+  background-size: cover; }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-weight: bold; } }
+
+@media screen and (min-width: 769px), print {
+  .title {
+    font-size: 2.5rem; } }
+
+@media screen and (min-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    margin-top: 2rem; } }
+
+h2 {
+  margin: 1.5rem 0 2rem 0 !important; }
+
+.primary {
+  color: #1EC9AC; }
+
+.card-content p {
+  padding: 10px;
+  color: gray; }

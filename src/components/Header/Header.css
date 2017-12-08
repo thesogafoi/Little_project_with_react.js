@@ -1,0 +1,23 @@
+.navbar {
+  background: #383838;
+  color: #fff; }
+  .navbar .navbar-brand a {
+    font-weight: bold;
+    color: #fff; }
+  .navbar a:hover {
+    color: gray; }
+  .navbar .navbar-menu .navbar-end .navbar-item {
+    background: #383838;
+    color: #fff;
+    padding: 0.5rem 1.75rem; }
+    .navbar .navbar-menu .navbar-end .navbar-item:hover {
+      color: gray; }
+  .navbar .navbar-menu .navbar-end .navbar-item a.is-primary:hover {
+    color: #fff; }
+  @media screen and (max-width: 768px) {
+    .navbar .navbar-menu .navbar-end .navbar-item a.is-primary {
+      color: gray; }
+      .navbar .navbar-menu .navbar-end .navbar-item a.is-primary .navbar {
+        background: #383838; }
+      .navbar .navbar-menu .navbar-end .navbar-item a.is-primary:hover {
+        background-color: #f1f1f1; } }
